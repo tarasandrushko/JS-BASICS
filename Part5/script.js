@@ -51,7 +51,7 @@ function jj(arr) {
 function kk(obj) {
     var total = 0;
     for (var key in obj){
-        total += cc[key];
+        total += kk[key];
     }
     return total;
 }
@@ -59,7 +59,7 @@ function kk(obj) {
 function m(a, b) {
     var result = [];
     for (var i = 0; i < a.length; i++) {
-        result[i] = Ar1[i] + Ar2[i];
+        result[i] = a[i] + b[i];
     }
     return result;
 }

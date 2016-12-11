@@ -23,7 +23,7 @@ while ( pcChoise !== userChoise){
 }
 
 	function getPcChoise(){
-		var pcNumber = Math.random() * 100;
+		var pcNumber = Math.round(Math.random() * 100);
 		return pcNumber;
 	}
 

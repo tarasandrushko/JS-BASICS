@@ -12,9 +12,9 @@ var pcChoise = getPcChoise();
 
 while ( pcChoise !== userChoise){
 	var userChoise = getUserChoise();
-	if ( pcChoise < userChoise){
+	if ( pcChoise > userChoise){
 		alert("Our number is higher than yours =),try again")
-	} else if (pcChoise > userChoise) {
+	} else if (pcChoise < userChoise) {
 		alert("Our number is lower than yours =),try again")
 	} else {
 		alert("Good job buddy,the number is"+number);

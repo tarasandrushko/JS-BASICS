@@ -17,7 +17,7 @@ while ( pcChoise !== userChoise){
 	} else if (pcChoise < userChoise) {
 		alert("Our number is lower than yours =),try again")
 	} else {
-		alert("Good job buddy,the number is" + userChoise);
+		alert("Good job buddy,the number is " + userChoise);
 	}
   }
 }

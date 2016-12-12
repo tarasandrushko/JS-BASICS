@@ -51,7 +51,7 @@ function jj(arr) {
 function kk(obj) {
     var total = 0;
     for (var key in obj){
-        total += kk[key];
+        total += obj[key];
     }
     return total;
 }
